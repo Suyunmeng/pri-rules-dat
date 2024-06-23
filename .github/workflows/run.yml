@@ -159,7 +159,7 @@ jobs:
         run: |
           cd custom || exit 1
           # echo sentry.io >>  ../community/data/openai
-          echo ipleak.net >> ../community/data/geolocation-\!cn && echo browserleaks.org >> ../community/data/geolocation-\!cn
+         # echo ipleak.net >> ../community/data/geolocation-\!cn && echo browserleaks.org >> ../community/data/geolocation-\!cn
           go run ./ --datapath=../community/data
 
       - name: Build geosite-lite.dat file
@@ -197,7 +197,7 @@ jobs:
           curl -sSL https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/GlobalMedia/GlobalMedia.yaml | ${{ env.SED }} > ./data-lite/proxymedia
 
           echo include:google >> ./data-lite/proxy && echo include:github >> ./data-lite/proxy && echo include:netflix >> ./data-lite/proxy
-          echo ipleak.net >> ./data-lite/proxy && echo browserleaks.org >> ./data-lite/proxy
+         # echo ipleak.net >> ./data-lite/proxy && echo browserleaks.org >> ./data-lite/proxy
           echo "full:o33249.ingest.sentry.io" >>  ./data-lite/openai
           echo "openai.com" >> ./data-lite/openai
           go run ./ --datapath=./data-lite --outputname geosite-lite.dat

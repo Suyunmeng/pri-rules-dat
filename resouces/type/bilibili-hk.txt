@@ -1,0 +1,5 @@
+full:www.bilibili.com
+full:api.bilibili.com
+full:bangumi.bilibili.com
+domain:biliapi.net
+domain:biliapi.com

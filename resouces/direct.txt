@@ -1,31 +1,30 @@
 ### static cdn
-cdnjs-jp.loli.net
-cdn.bili33.top
+domain:loli.net
+full:cdn.bili33.top
 
 ### windows extra
-software.download.prss.microsoft.com
-outlook-1.cdn.office.net
-s0.2mdn.net
-static.2mdn.net
-statics.teams.cdn.office.net
-uci.cdn.office.net
-wscont2.apps.microsoft.com
-wscont1.apps.microsoft.com
-officecdn.microsoft.com
-officecdn.microsoft.com.edgesuite.net
+full:software.download.prss.microsoft.com
+full:outlook-1.cdn.office.net
+full:s0.2mdn.net
+full:static.2mdn.net
+full:statics.teams.cdn.office.net
+full:uci.cdn.office.net
+full:wscont2.apps.microsoft.com
+full:wscont1.apps.microsoft.com
+full:officecdn.microsoft.com
+full:officecdn.microsoft.com.edgesuite.net
 
 ### windows update
-payload:
-au.download.windowsupdate.com
-au.v4.download.windowsupdate.com
-ctldl.windowsupdate.com
-dl.delivery.mp.microsoft.com
-download.microsoft.com
-download.windowsupdate.com
-ds.download.windowsupdate.com
-fg.ds.b1.download.windowsupdate.com
-fg.v4.download.windowsupdate.com
-msedge.b.tlu.dl.delivery.mp.microsoft.com
-tlu.dl.delivery.mp.microsoft.com
-v4.download.windowsupdate.com
-www.download.windowsupdate.com
+full:au.download.windowsupdate.com
+full:au.v4.download.windowsupdate.com
+full:ctldl.windowsupdate.com
+full:dl.delivery.mp.microsoft.com
+full:download.microsoft.com
+full:download.windowsupdate.com
+full:ds.download.windowsupdate.com
+full:fg.ds.b1.download.windowsupdate.com
+full:fg.v4.download.windowsupdate.com
+full:msedge.b.tlu.dl.delivery.mp.microsoft.com
+full:tlu.dl.delivery.mp.microsoft.com
+full:v4.download.windowsupdate.com
+full:www.download.windowsupdate.com

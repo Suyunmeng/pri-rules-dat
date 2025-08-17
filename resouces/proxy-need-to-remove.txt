@@ -1,7 +1,6 @@
 ifanr.com
 weibo.com
 www.baidu.com
-### windows extra
 software.download.prss.microsoft.com
 outlook-1.cdn.office.net
 s0.2mdn.net
@@ -12,8 +11,6 @@ wscont2.apps.microsoft.com
 wscont1.apps.microsoft.com
 officecdn.microsoft.com
 officecdn.microsoft.com.edgesuite.net
-
-### windows update
 au.download.windowsupdate.com
 au.v4.download.windowsupdate.com
 ctldl.windowsupdate.com

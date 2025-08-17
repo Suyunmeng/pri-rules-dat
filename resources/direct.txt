@@ -1,0 +1,30 @@
+### static cdn
+domain:loli.net
+full:cdn.bili33.top
+
+### windows extra
+full:software.download.prss.microsoft.com
+full:outlook-1.cdn.office.net
+full:s0.2mdn.net
+full:static.2mdn.net
+full:statics.teams.cdn.office.net
+full:uci.cdn.office.net
+full:wscont2.apps.microsoft.com
+full:wscont1.apps.microsoft.com
+full:officecdn.microsoft.com
+full:officecdn.microsoft.com.edgesuite.net
+
+### windows update
+full:au.download.windowsupdate.com
+full:au.v4.download.windowsupdate.com
+full:ctldl.windowsupdate.com
+full:dl.delivery.mp.microsoft.com
+full:download.microsoft.com
+full:download.windowsupdate.com
+full:ds.download.windowsupdate.com
+full:fg.ds.b1.download.windowsupdate.com
+full:fg.v4.download.windowsupdate.com
+full:msedge.b.tlu.dl.delivery.mp.microsoft.com
+full:tlu.dl.delivery.mp.microsoft.com
+full:v4.download.windowsupdate.com
+full:www.download.windowsupdate.com

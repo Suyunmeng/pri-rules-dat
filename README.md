@@ -80,6 +80,13 @@ rule-providers:
     type: http
     url: "https://raw.githubusercontent.com/Suyunmeng/pri-rules-dat/meta/geo/geosite/cn.yaml"
 
+dns:
+  nameserver-policy:
+    "geosite:cn,private,apple":
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
+    "geosite:category-ads-all": rcode://success
+
 rules:
   - RULE-SET,cn,DIRECT
   - GEOSITE,category-ads-all,REJECT

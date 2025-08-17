@@ -127,10 +127,11 @@ jobs:
           cp ./community/data/cn direct-list.txt
           cp ./community/data/geolocation-\!cn proxy-list.txt
 
-      - name: Create `google-cn`、`apple-cn`、`gfw` lists
+      - name: Create `google-cn`、`apple-cn`、`gfw`、`bilibili-hk`、`geolocation-cn-private` lists
         run: |
           curl -sSL $GOOGLE_DOMAINS_URL | perl -ne '/^server=\/([^\/]+)\// && print "full:$1\n"' > ./community/data/google-cn
           curl -sSL $APPLE_DOMAINS_URL | perl -ne '/^server=\/([^\/]+)\// && print "full:$1\n"' > ./community/data/apple-cn
+          cat ./resources/types/bilibili-hk.txt >> ./community/data/bilibili-hk
           cat ./resources/types/geolocation-cn-private.txt >> ./community/data/geolocation-cn-private
           cat ./gfwlist2dnsmasq/temp-gfwlist.txt | perl -ne '/^((?=^.{3,255})[a-zA-Z0-9][-_a-zA-Z0-9]{0,62}(\.[a-zA-Z0-9][-_a-zA-Z0-9]{0,62})+)/ && print "$1\n"' >> ./community/data/gfw
           curl -sSL $WIN_SPY | grep "0.0.0.0" | awk '{print $2}' > ./community/data/win-spy

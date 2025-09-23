@@ -2,6 +2,9 @@
 domain:loli.net
 full:cdn.bili33.top
 
+### Huggingface-mirror
+domain:hf-mirror.com
+
 ### windows extra
 full:software.download.prss.microsoft.com
 full:outlook-1.cdn.office.net

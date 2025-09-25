@@ -1,0 +1,4 @@
+domain:mcdn.bilivideo.cn
+domain:szbdyd.com
+full:upos-sz-mirroraliov.bilivideo.com
+full:upos-sz-mirrorcosov.bilivideo.com

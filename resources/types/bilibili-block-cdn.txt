@@ -5,5 +5,6 @@ full:upos-sz-302ppio.bilivideo.com @cn
 full:upos-sz-302kodo.bilivideo.com @cn
 domain:edge.mountaintoys.cn @cn
 domain:szbdyd.com @cn
+domain:ahdohpiechei.com @cn
 full:upos-sz-mirroraliov.bilivideo.com @global
 full:upos-sz-mirrorcosov.bilivideo.com @global

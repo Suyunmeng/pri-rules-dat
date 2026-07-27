@@ -76,9 +76,11 @@ rule-providers:
   cn:
     behavior: domain
     interval: 86400
-    path: ./provider/rule-set/cn_domain.yaml
+    path: ./provider/rule-set/geosite-cn.mrs
     type: http
-    url: "https://raw.githubusercontent.com/Suyunmeng/pri-rules-dat/meta/geo/geosite/cn.yaml"
+    format: mrs
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.mrs"
+    path-in-bundle: "geo/geosite/cn.mrs"
 
 dns:
   nameserver-policy:

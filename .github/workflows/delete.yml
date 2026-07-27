@@ -8,10 +8,9 @@ jobs:
   del_runs:
     runs-on: ubuntu-latest
     steps:
-      - name: Delete old workflow runs
-        uses: Suyunmeng/delete-old-workflow-runs@main
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
+      - name: Delete workflow runs
+        uses: GitRML/delete-workflow-runs@main
         with:
+          token: ${{ github.token }}
           repository: ${{ github.repository }}
-          older-than-seconds: 604800
+          retain_days: 7

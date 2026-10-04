@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [
+        "www.bilibili.com",
+        "api.bilibili.com",
+        "bangumi.bilibili.com"
+      ],
+      "domain_suffix": [
+        "biliapi.net",
+        "biliapi.com"
+      ]
+    }
+  ]
+}

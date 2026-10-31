@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [
+        "upos-sz-mirroraliov.bilivideo.com",
+        "upos-sz-mirrorcosov.bilivideo.com"
+      ]
+    }
+  ]
+}
